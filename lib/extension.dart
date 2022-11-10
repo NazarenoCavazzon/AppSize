@@ -29,4 +29,16 @@ extension AppSizeExt on num {
   /// Calculates the sp (Scalable Pixel) depending on the device's screen size.
   double get sp =>
       this * AppSizeUtil.deviceWidth * (AppSizeUtil.pixelRatio ?? 0.0026666666);
+
+  ///This calculates the height percentage and returns a sized box with a proportional height
+  ///Instead of SizedBox(height: 20); you can use 24.height,
+  SizedBox get height => SizedBox(
+        height: (this) * (AppSizeUtil.height / 1000),
+      );
+
+  ///This calculates the width percentage and returns a sized box with a proportional height
+  ///Instead of SizedBox(width: 20); you can use 24.width,
+  SizedBox get width => SizedBox(
+        height: (this) * (AppSizeUtil.height / 1000),
+      );
 }

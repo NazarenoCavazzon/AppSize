@@ -1,10 +1,4 @@
-import 'dart:developer';
-
 import 'package:appsize/appsize.dart';
-import 'package:example/screens/first_page_screen.dart';
-import 'package:example/screens/fourth_page_screen.dart';
-import 'package:example/screens/second_page_screen.dart';
-import 'package:example/screens/third_page_screen.dart';
 import 'package:example/util/color_util.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -51,6 +45,15 @@ class HomeScreenState extends State<HomeScreen> {
         children: [
           Container(
             color: Colors.red,
+            width: 100.w,
+            height: 20.h,
+          ),
+          24.height,
+          // SizedBox(
+          //   height: 12,
+          // ),
+          Container(
+            color: Colors.green,
             width: 100.w,
             height: 20.h,
           ),
