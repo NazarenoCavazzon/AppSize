@@ -48,11 +48,7 @@ class _AppSizeState extends State<AppSize> {
   @override
   void initState() {
     super.initState();
-    try {
-      size = MediaQuery.of(context).size;
-    } catch (_) {
-      /// If the context is not available, we use a LayoutBuilder to get the size.
-    }
+    size = MediaQuery.maybeSizeOf(context);
   }
 
   @override

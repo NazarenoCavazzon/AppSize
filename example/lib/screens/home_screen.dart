@@ -1,10 +1,4 @@
-import 'dart:developer';
-
 import 'package:appsize/appsize.dart';
-import 'package:example/screens/first_page_screen.dart';
-import 'package:example/screens/fourth_page_screen.dart';
-import 'package:example/screens/second_page_screen.dart';
-import 'package:example/screens/third_page_screen.dart';
 import 'package:example/util/color_util.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -18,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class HomeScreenState extends State<HomeScreen> {
   final _pageController = PageController();
-  int _pageIndex = 0;
+  final int _pageIndex = 0;
 
   @override
   Widget build(BuildContext context) {

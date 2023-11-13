@@ -56,26 +56,26 @@ extension CustomTheme on ThemeData {
 abstract class CustomTextStyles {
   /// {@macro custom_colors}
   static const primary = TextTheme(
-    overline: heroPrimary,
-    headline1: headline1Primary,
-    headline2: headline2Primary,
-    headline3: headline3Primary,
-    headline4: headline4Primary,
-    bodyText1: bodyPrimary,
-    bodyText2: bodyPrimary,
-    caption: hintPrimary,
+    labelSmall: heroPrimary,
+    displayLarge: headline1Primary,
+    displayMedium: headline2Primary,
+    displaySmall: headline3Primary,
+    headlineMedium: headline4Primary,
+    bodyLarge: bodyPrimary,
+    bodyMedium: bodyPrimary,
+    bodySmall: hintPrimary,
   );
 
   /// {@macro custom_colors}
   static const standard = TextTheme(
-    overline: hero,
-    headline1: headline1,
-    headline2: headline2,
-    headline3: headline3,
-    headline4: headline4,
-    bodyText1: body,
-    bodyText2: body,
-    caption: hint,
+    labelSmall: hero,
+    displayLarge: headline1,
+    displayMedium: headline2,
+    displaySmall: headline3,
+    headlineMedium: headline4,
+    bodyLarge: body,
+    bodyMedium: body,
+    bodySmall: hint,
   );
 
   /// The hero text style to be used with light backgrounds.
