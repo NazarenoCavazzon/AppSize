@@ -1,3 +1,10 @@
+## [1.2.2] - 13.11.2022.
+
+* fix: `MediaQuery.of(context).size` to `MediaQuery.maybeSizeOf(context)`
+* fix: dart warnings
+* feat: explicit support for Dart 3.0
+* chore: newer theme labels usage for new Flutter version compatibility
+
 ## [1.2.1] - 08.09.2022.
 
 * Fixed width and device width
