@@ -29,7 +29,7 @@ class PageFirstPageScreenWithoutSizerState
                 const SizedBox(
                   height: 20,
                 ),
-                widDesc()
+                widDesc(),
               ],
             ),
           ),
